@@ -1,0 +1,128 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #fefae0;
+    font-size: 1.125rem;
+    display: block;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/* ***********************************************************[  Media queries  ]******************************************* */
+
+
+@media (max-width: 480px) {
+
+header {
+    display:flex;
+    background-color: #bc6c25;
+    color: #fefae0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+}
+
+ul {
+    width: 100%;
+}
+
+li:not(:last-child){
+   
+    display: block;
+    border-bottom: 1px dotted #283618;
+}
+
+li {
+    list-style: none;
+}
+
+.main-image {
+    width: 100%;
+    background-size: cover;
+    margin-top: 1em;
+    border: 0.2em solid #fcf6bd;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.subheading { 
+    /* width: 50%;  */
+    display: block;
+    font-weight: 300;
+
+    font-size: 0.00000125rem;
+}
+
+
+
+.btn {
+    display: block;
+    background-color: #472d30;
+    color: #fcf6bd;
+    text-decoration: none;
+    padding: 1em 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+    border: 0.2em solid #fcf6bd;
+    border-radius: 0.5rem;
+}
+
+
+
+
+.p-text {
+
+    font-size: 0.5rem;
+    line-height: 1.5;
+    display: block;
+    padding-top: 0px;
+}
+
+h5 {
+    display: block;
+    margin-top: 0.5em;
+}
+
+h3 {
+    margin:auto 0;
+}
+
+}
+
