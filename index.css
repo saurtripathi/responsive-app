@@ -115,7 +115,7 @@ ul {
 
     h5{
         font-size: 1.5rem;
-        
+
     }
 
 }
@@ -142,12 +142,13 @@ ul {
     }
 
     ul {
-        margin-right: 4em;
+        margin-right: 4.5em;
     }
 
     nav a {
         margin-left: 1em;
         cursor: pointer;
+        font-size: 1.5rem;
     }
 
     nav a:hover {
@@ -159,15 +160,19 @@ ul {
     }
 
     h1 {
-        margin-left: 2em;
+        margin-left: 1.125em;
+        font-size: 3.5rem;
     }
 
     h5 {
-        margin-left: 4.5em;
+        margin: 1em 0em 1em 3em;
+        font-size: 1.5rem;
+
     }
 
     p {
-        margin-left: 3.75em;
+        margin-left: 4.5em;
+
     }
 
     .btn-div {
